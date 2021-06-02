@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_basic_white_theme.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic">
     <title>Портфолио Junior верстальщика</title>
   </head>
@@ -10,23 +11,26 @@
   <body>
     <header class="page-header">
       <div class="container">
-          <strong>Контакты для связи</strong><br>
-          <strong>email: baguppc@mail.ru</strong><br>
+          <a class="header-email" href="mailto:baguppc@mail.ru">baguppc@mail.ru</a><br>
+          <a class="header-phone" href="tel:+79963242686">+7 996 32 42 686</a>
       </div>
     </header>
 
     <section class="hero-image">
       <div class="container">
           <h1 class="heading">Меня зовут Сергей:)</h1>
-          <p>Я<strong style="color:green"> программист</strong></p>
+          <p>Junior верстальщик</p>
       </div>
     </section>
     <section class="intro">
       <div class="container">
           <h2 class="subheading">Давайте познакомимся</h2>
+           <figure class="user-image">
+              <img src="files/my_user.jpg" width="835" height="965" alt="Моя фотография" title="Это я">
+          </figure>
           <h3>Пара слов о себе</h3>
           <p>Я живу в Перми. Закончил обучение в Профессиональном Лицее № 1 в 2008 году. После поступил в Колледж при ПГУ, а в 2011 году успешно бросил колледж. Мне 32 года, интересуюсь разными направлениями жизни.
-          <img src="source/Я.jpg" width="1000" height="1000"></p>
+          </p>
           <h3>Чем могу быть полезен</h3>
           <p>У меня разнастороний опыт работы. Занимался в основном финансовыми информационными системами, такими как Парус, SAP, 1C.
       	  Года 3 работал сервис-инженером 1С, могу помочь по следующим задачам:
@@ -36,6 +40,15 @@
       		  <li>Исправление ошибок в работе 1С</li>
       	  </ul>
           </p>
+          <div class="skills">
+              <h3>Мои навыки</h3>
+              <dl class="skills-list">
+                  <dt class="skill-html">HTML</dt>
+                  <dd class="level"><div style="width: 60%;">60%</div></dd>
+                  <dt class="skill-css">CSS</dt>
+                  <dd class="level"><div style="width: 40%;">40%</div></dd>
+              </dl>
+          </div>
       </div>
     </section>
 
@@ -43,6 +56,15 @@
       <div class="container">
           <h2 class="subheading">Мои работы</h2>
 
+          <figure class="project-image">
+              <img src="files/project.jpg" width="928" height="536" alt="Сайт магазина товаров для дома">
+          </figure>
+
+          <h3>Магазин товаров для дома</h3>
+          <p>Мой первый сайт</p>
+          <a class="button" href="\source\project-gloevk">Открыть страницу</a>
+          <br>
+          <br>
           <h3>ООО "Парус-Сервис-Пермь"</h3>
           <p>Менеджер по сопровождению клиентов</p>
 
@@ -53,7 +75,8 @@
 
     <footer class="page-footer">
     	<div class="container">
-            Контакты для связи смотри в шапке сайта
+            <a class="footer-email" href="mailto:baguppc@mail.ru">baguppc@mail.ru</a>
+            <a class="footer-phone" href="tel:+79963242686">+7 996 32 42 686</a>
         </div>
     </footer>
   </body>
